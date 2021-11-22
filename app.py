@@ -12,7 +12,7 @@ import joblib
 
 # Define a flask app
 app = Flask(__name__)
-model = joblib.load('models/rf_model.h5')
+model = joblib.load('models/rf_model_reduced.h5')
 #model = load_model('models/rf_model.h5')
 
 
